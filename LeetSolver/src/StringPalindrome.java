@@ -8,8 +8,8 @@ public class StringPalindrome {
             if(x.charAt(left)!=x.charAt(right)){
                 return false;
             }
-            left++;
-            right--;
+            left++; //incrementing from left side
+            right--; //decrementing from right side
         }
         return true;
     }
