@@ -1,4 +1,5 @@
 import java.util.*;
+// this is not an actual code for the file that has mentioned.
 public class CommonPrefix {
     // A method to sort the character by character ussing bubble sort
     public char[] sorting(String str){
