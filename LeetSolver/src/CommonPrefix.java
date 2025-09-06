@@ -17,12 +17,29 @@ public class CommonPrefix {
         }
         return cha;
     }
+
+    public char[] compare(String str1, String str2){
+        char firstString[]=str1.toCharArray();
+        char secondString[]=str2.toCharArray();
+        int n = firstString.length;
+        int m = secondString.length;
+        int i,j;
+        for(i=0;i<n;i++){
+            for(j=0;j<m;j++){
+                if(firstString[i]==secondString[j]){
+                    return secondString;
+                }
+            }
+        }
+        return null;
+    }
     public static void main(String[] args) {
         CommonPrefix cp = new CommonPrefix();
         int n=100;
-        String str[] = {"rakshi", "nishu"};
+        String str[] = {"rakshi", "rakshith"};
         for(int i=0;i<str.length;i++){
             System.out.println("Sorted names are: "+new String(cp.sorting(str[i])));;
+//            String sortedString[i]=str;
             // new String() method is used to convert an array of char[] to string.
         }
     }
