@@ -1,3 +1,5 @@
+package CommonPrefix;
+
 import java.util.*;
 // this is not an actual code for the file that has mentioned.
 public class CommonPrefix {
