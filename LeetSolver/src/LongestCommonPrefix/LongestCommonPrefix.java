@@ -21,7 +21,7 @@ public class LongestCommonPrefix {
             while (!strs[i].startsWith(prefix)) {
                 // used '!', which means until it becomes null. keep on iterate
 
-                // Updating the prefix. substring() is
+                // Updating the prefix. substring() is a method.
                 prefix = prefix.substring(0, prefix.length() - 1);
 
                 // No common prefix
