@@ -19,8 +19,9 @@ public class LongestCommonPrefix {
             // Shortening prefix until it matches by using substring() methods
             // startsWith() is used to check whether the string start with the given character. And it return true or false
             while (!strs[i].startsWith(prefix)) {
+                // used '!', which means until it becomes null. keep on iterate
 
-                // Updating the prefix.
+                // Updating the prefix. substring() is
                 prefix = prefix.substring(0, prefix.length() - 1);
 
                 // No common prefix
