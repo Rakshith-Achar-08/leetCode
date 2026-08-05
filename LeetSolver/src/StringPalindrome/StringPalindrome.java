@@ -1,3 +1,5 @@
+package StringPalindrome;
+
 import java.util.*;
 public class StringPalindrome {
     public boolean isPalindrome(String x){
