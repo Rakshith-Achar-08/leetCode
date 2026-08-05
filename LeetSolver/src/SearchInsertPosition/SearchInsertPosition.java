@@ -40,5 +40,4 @@ public class SearchInsertPosition {
         int res = searchInsertPosition.searchInsert(num, target);
         System.out.println("The result is "+res);
     }
-
 }
