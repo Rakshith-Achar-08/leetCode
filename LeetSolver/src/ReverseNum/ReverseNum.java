@@ -1,3 +1,5 @@
+package ReverseNum;
+
 import java.util.*;
 
 class reversingMethod{

@@ -1,3 +1,5 @@
+package Palindrome2;
+
 import java.util.*;
 
 public class Palindrome2 {

@@ -1,11 +1,8 @@
-// Java Program to Reverse a String
-// Using for loop
-import java.io.*;
-import java.util.*;
+package SearchInsertPosition;
+
 import java.util.Scanner;
 
-class second {
-
+public class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {
 
@@ -28,7 +25,7 @@ class second {
 
     public static void main(String[] args) {
 
-        second sec = new second();
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
 //        1,3,5,6]
         int num[]={1,3,5,6};
 
@@ -40,7 +37,7 @@ class second {
         System.out.println("Enter the target");
         int target=scanner.nextInt();
 
-        int res = sec.searchInsert(num, target);
+        int res = searchInsertPosition.searchInsert(num, target);
         System.out.println("The result is "+res);
     }
 }
