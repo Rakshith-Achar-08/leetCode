@@ -29,3 +29,17 @@ for (int i = 0; i < s.length(); i++) {
 }
 System.out.println(r);
 ```
+
+2. `String to character using stack`
+```aiignore
+String name = "Hello";
+        Stack<Character>stack=new Stack<>();
+
+        for(int i =0;i<name.length();i++){
+            stack.push(name.charAt(i));
+        }
+
+        System.out.println(stack);
+```
+
+3. 
