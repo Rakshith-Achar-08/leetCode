@@ -2,23 +2,15 @@ import java.util.*;
 
 public class ForPractice {
 
+    public int removeElement(int[] nums, int val) {
 
-//    public int lengthOfLongestSubstring(String s) {
-//    }
+        if(nums == null||val<0||val>nums.length){
+            return nums[0];
+        }
+        return 0;
+    }
 
+    
 
-//
-//    static void main() {
-//        ForPractice forPractice = new ForPractice();
-//       String name = "abcabcbb";
-//       int res = forPractice.lengthOfLongestSubstring(name);
-//        System.out.println(res);
-
-
-
-//        System.out.println(ch);
-//       for (int i=0;i<name.length();i++){
-//           System.out.println(ch[i]);
-//       }
 
 }
